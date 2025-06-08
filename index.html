@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MLBB Diamond Recharge - ReUp Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ReUp Official Store</h1>
+    <p>Instant MLBB Diamond Recharge</p>
+
+    <label>MLBB ID:</label>
+    <input type="text" id="mlbbId" placeholder="Enter MLBB ID">
+
+    <label>Server ID:</label>
+    <input type="text" id="serverId" placeholder="Enter Server ID">
+
+    <label>Choose Diamonds:</label>
+    <select id="diamondPack">
+      <option value="11">11 Diamonds - ₹20</option>
+      <option value="53">53 Diamonds - ₹80</option>
+      <option value="86">86 Diamonds - ₹120</option>
+      <option value="172">172 Diamonds - ₹240</option>
+      <option value="Weekly">Weekly Pass - ₹250</option>
+    </select>
+
+    <label>Payment Method:</label>
+    <select id="payment">
+      <option>UPI</option>
+      <option>GPay</option>
+      <option>Paytm</option>
+    </select>
+
+    <button onclick="submitRecharge()">Recharge Now</button>
+    <p id="confirmation"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
